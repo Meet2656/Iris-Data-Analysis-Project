@@ -1,20 +1,28 @@
 # Iris-Data-Analysis-Project
-This repository contains a simple data analysis project using the Iris dataset. We performed a quick exploration and created a visualization to understand the data using python.
+This repository contains a simple data analysis project using the Iris dataset. I performed a quick exploration and created a visualization to understand the data using python.
 
 ## Project Steps
 
-1. Loading the Dataset: We loaded the Iris dataset from the UCI Machine Learning Repository.
+1. Loading the Dataset: I loaded the Iris dataset from the UCI Machine Learning Repository.
 
    Below is the code used to import pandas and load the Iris dataset from UCI:
 
    ![Loading Dataset Code](1.jpg)
 
-2. Data Summary: We used pandas to generate summary statistics of the dataset.
+2. Data Summary: I used pandas to generate summary statistics of the dataset.
 
-3. Visualization: We created a scatter plot to visualize the relationship between sepal length and sepal width.
+   I used `data.describe()` to generate summary statistics such as mean, min, max, and quartiles:
+
+   ![Data Summary Output](2.jpg)
+
+3. Visualization: I created a scatter plot to visualize the relationship between sepal length and sepal width.
+
+   I created a scatter plot using seaborn to visualize the relationship between sepal length (X-axis) and sepal width (Y-axis):
+
+   ![Scatter Plot](3.jpg)
 
 ## Visualization
-Below is the scatter plot we generated:
+Below is the scatter plot I generated:
  
 ![Scatter plot](graph.jpg)
 

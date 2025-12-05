@@ -5,6 +5,10 @@ This repository contains a simple data analysis project using the Iris dataset. 
 
 1. Loading the Dataset: We loaded the Iris dataset from the UCI Machine Learning Repository.
 
+   Below is the code used to import pandas and load the Iris dataset from UCI:
+
+   ![Loading Dataset Code](1.jpg)
+
 2. Data Summary: We used pandas to generate summary statistics of the dataset.
 
 3. Visualization: We created a scatter plot to visualize the relationship between sepal length and sepal width.
